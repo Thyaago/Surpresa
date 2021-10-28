@@ -1,0 +1,35 @@
+body{
+    font-family: "Special Elite", monospace;
+    font-size: 32px;
+    color: rgb(255, 255, 255, 0.75);
+    background-color: rgb(25, 25, 25);
+}
+h1{
+    text-align: center;
+}
+#conteudo{
+    display: table;
+    margin-left: 100px;
+}
+#imagem{
+    display: table-cell;
+    float: right;
+    text-align: right;
+    margin-top: 60px;
+}
+#texto{
+    display: table-cell;
+    float: left;
+    text-align: center;
+    width: 300px;
+}
+#img{
+    display: table-cell;
+    float: left;
+    text-align: left;
+    margin-top: 60px;
+}
+img{
+    height: 400px;
+    width: 400px;
+}
